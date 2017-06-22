@@ -76,11 +76,11 @@ p, li {
   font-size: 40px;
   font-family: 'Kotta One', 'Bubbler One', 'Titillium Web', 'Abel',  serif;
   text-align: center;
-  color: #FFFFFF;
 }
 
 .a{
   text-decoration: none;
+  color: #FFFFFF;
 }
 
 .odin:hover, .odin:focus{
