@@ -29,15 +29,17 @@ body{
   font-family: placeholder: this should be the rest of the output you got from Google fonts
 }*/
 
-#main_title {
+.main_title{
   font-family: 'Bubbler One', 'Titillium Web', 'Abel',  serif;
   margin: 0 auto;
-  padding: 20px 0 30px 0;
+  padding: 20px 0 10px 0;
   font-size: 40px;
   text-align: center;
   color: #FFFFFF;
   text-shadow: 3px 3px 1px black;
 }
+
+
 
 #second_p{
   padding: 20px 0;
@@ -65,17 +67,22 @@ p, li {
 }
 */
 
-.a{
+.odin{
   position: relative;
   box-sizing: border-box;
-  margin: auto;
-  width: 30%;
+  margin: 0 auto;
+  width: 55%;
+  padding: 2px 0 20px 0;
+  font-size: 40px;
   font-family: 'Kotta One', 'Bubbler One', 'Titillium Web', 'Abel',  serif;
   text-align: center;
   color: #FFFFFF;
+}
+
+.a{
   text-decoration: none;
 }
 
-.a:hover, .a:focus{
+.odin:hover, .odin:focus{
   text-shadow: 0 0 7px white;
 }
