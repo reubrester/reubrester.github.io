@@ -1,47 +1,82 @@
 html {
-  font-size: 10px; /* px means 'pixels': the base font size is now 10 pixels high */
-  font-family: placeholder: this should be the rest of the output you got from Google fonts
+  background-color: #000000;
 }
 
-h1 {
-  margin: 0;
-  padding: 20px 0;
-  font-size: 60px;
+/*.main{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+*/
+
+body{
+  width: 45%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform: -webkit-translate(-50%, -50%);
+  transform: -moz-translate(-50%, -50%);
+  transform: -ms-translate(-50%, -50%);
+  margin: auto;
+  background-color: #004787;
+  padding: 20px;
+  border: 5px solid white;
+}
+
+/*html {
+  font-size: 10px; px means 'pixels': the base font size is now 10 pixels high
+  font-family: placeholder: this should be the rest of the output you got from Google fonts
+}*/
+
+#main_title {
+  font-family: 'Bubbler One', 'Titillium Web', 'Abel',  serif;
+  margin: 0 auto;
+  padding: 20px 0 30px 0;
+  font-size: 40px;
   text-align: center;
   color: #FFFFFF;
   text-shadow: 3px 3px 1px black;
 }
 
+#second_p{
+  padding: 20px 0;
+}
 p, li {
   text-align: left;
+  font-family: 'Abel', sans-serif;
   font-size: 16px;
   line-height: 2;
   letter-spacing: 1px;
   color: white;
 }
 
-html {
-  background-color: #000000;
+/*
+.projects{
+  position: relative;
+  box-sizing: border-box;
+  margin: auto;
+  padding: 18px;
+  width: 30%;
+  font-size: 20px;
+  font-family: 'Kotta One', 'Bubbler One', 'Titillium Web', 'Abel',  serif;
+  text-align: center;
+  color: #FFFFFF;
 }
+*/
 
-body{
-  width: 600px;
-  margin: 0 auto;
-  background-color: #004787;
-  padding: 0 20px 20px 20px;
-  border: 5px solid white;
-}
-
-img{
-  display: block;
-  margin: 0 auto;
-}
-
-a{
+.a{
+  position: relative;
+  box-sizing: border-box;
+  margin: auto;
+  padding: 18px;
+  width: 30%;
+  font-family: 'Kotta One', 'Bubbler One', 'Titillium Web', 'Abel',  serif;
+  text-align: center;
   color: #FFFFFF;
   text-decoration: none;
 }
 
-a:hover {
-  color: #FFD046;
+.a:hover, .a:focus{
+  text-shadow: 0 0 7px white;
 }

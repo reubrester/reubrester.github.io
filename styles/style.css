@@ -61,11 +61,10 @@ p, li {
   color: white;
 }
 
-
-#projects{
+.projects{
   position: relative;
   box-sizing: border-box;
-  margin: 0 auto;
+  margin: auto;
   padding: 18px;
   width: 30%;
   font-size: 20px;
@@ -74,6 +73,10 @@ p, li {
   color: #FFFFFF;
 }
 
-#projects:hover, #projects:focus{
+.a{
+  text-decoration: none;
+}
+
+.projects:hover, .projects:focus{
   text-shadow: 0 0 7px white;
 }
