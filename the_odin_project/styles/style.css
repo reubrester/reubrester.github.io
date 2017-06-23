@@ -30,7 +30,7 @@ body{
 }*/
 
 .main_title{
-  font-family: 'Bubbler One', 'Titillium Web', 'Abel',  serif;
+  font-family: 'Kotta One', 'Titillium Web', 'Abel',  serif;
   margin: 0 auto;
   padding: 20px 0 10px 0;
   font-size: 40px;
@@ -74,7 +74,7 @@ p, li {
   width: 55%;
   padding: 2px 0 20px 0;
   font-size: 40px;
-  font-family: 'Kotta One', 'Bubbler One', 'Titillium Web', 'Abel',  serif;
+  font-family: 'Kotta One', 'Titillium Web', 'Abel',  serif;
   text-align: center;
 }
 
