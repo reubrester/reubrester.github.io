@@ -10,7 +10,7 @@ html {
 */
 
 body{
-  width: 45%;
+  /*width: 45%;*/
   position: fixed;
   top: 50%;
   left: 50%;
@@ -39,11 +39,10 @@ body{
   text-shadow: 3px 3px 1px black;
 }
 
-
-
 #second_p{
   padding: 20px 0;
 }
+
 p, li {
   text-align: left;
   font-family: 'Abel', sans-serif;
