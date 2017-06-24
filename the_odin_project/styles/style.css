@@ -29,7 +29,7 @@ body{
   font-family: placeholder: this should be the rest of the output you got from Google fonts
 }*/
 
-.main_title{
+#main_title{
   font-family: 'Kotta One', 'Titillium Web', 'Abel',  serif;
   margin: 0 auto;
   padding: 20px 0 10px 0;
@@ -39,9 +39,9 @@ body{
   text-shadow: 3px 3px 1px black;
 }
 
-/*#second_p{
+#second_p{
   padding: 20px 0;
-}*/
+}
 
 p, li {
   text-align: left;
@@ -52,21 +52,7 @@ p, li {
   color: white;
 }
 
-/*
-.projects{
-  position: relative;
-  box-sizing: border-box;
-  margin: auto;
-  padding: 18px;
-  width: 30%;
-  font-size: 20px;
-  font-family: 'Kotta One', 'Bubbler One', 'Titillium Web', 'Abel',  serif;
-  text-align: center;
-  color: #FFFFFF;
-}
-*/
-
-.odin{
+#odin{
   position: relative;
   box-sizing: border-box;
   margin: 0 auto;
@@ -77,16 +63,16 @@ p, li {
   text-align: center;
 }
 
-.a{
+#a{
   text-decoration: none;
   color: #FFFFFF;
 }
 
-.odin:hover, .odin:focus{
+#odin:hover, #odin:focus{
   text-shadow: 0 0 7px white;
 }
 
-.back{
+#back{
   position: relative;
   box-sizing: border-box;
   margin: auto;
@@ -98,19 +84,19 @@ p, li {
   color: #FFFFFF;
 }
 
-.back-link{
+#back-link{
   text-decoration: none;
 }
 
-.back:hover, .back:focus{
+#back:hover, #back:focus{
   text-shadow: 0 0 7px white;
 }
 
-.github{
+#github{
   text-decoration: none;
   color: #FFFFFF;
 }
 
-.github:hover, .github:focus{
+#github:hover, #github:focus{
   text-shadow: 0 0 7px white;
 }
