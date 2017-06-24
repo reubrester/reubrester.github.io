@@ -43,7 +43,7 @@ body{
   font-size: 30px;
 }
 
-#main_title, .second_title {
+#main_title, #second_title {
   text-align: center;
   color: #FFFFFF;
   text-shadow: 3px 3px 1px black;
