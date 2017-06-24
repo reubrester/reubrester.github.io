@@ -80,3 +80,12 @@ p, li {
 .projects:hover, .projects:focus{
   text-shadow: 0 0 7px white;
 }
+
+.linkedin{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.linkedin:hover, .linkedin:focus{
+  text-shadow: 0 0 7px white;
+}
