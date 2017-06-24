@@ -85,3 +85,23 @@ p, li {
 .odin:hover, .odin:focus{
   text-shadow: 0 0 7px white;
 }
+
+.back{
+  position: relative;
+  box-sizing: border-box;
+  margin: auto;
+  padding: 18px;
+  width: 30%;
+  font-size: 20px;
+  font-family: 'Kotta One', 'Bubbler One', 'Titillium Web', 'Abel',  serif;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.back-link{
+  text-decoration: none;
+}
+
+.back:hover, .back:focus{
+  text-shadow: 0 0 7px white;
+}
