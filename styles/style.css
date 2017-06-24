@@ -29,21 +29,21 @@ body{
   font-family: placeholder: this should be the rest of the output you got from Google fonts
 }*/
 
-#main_title {
+.main_title {
   font-family: 'Kotta One', 'Titillium Web', 'Abel',  serif;
   margin: 0 auto;
   padding: 20px 0 14px 0;
   font-size: 60px;
 }
 
-#second_title {
+.second_title {
   font-family: 'Kotta One', 'Titillium Web', 'Abel',  serif;
   margin: 0 auto;
   padding: 14px 0 40px 0;
   font-size: 30px;
 }
 
-#main_title, #second_title {
+.main_title, .second_title {
   text-align: center;
   color: #FFFFFF;
   text-shadow: 3px 3px 1px black;
