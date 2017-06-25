@@ -40,7 +40,16 @@ body{
 }
 
 #second_p{
-  padding: 20px 0;
+  position: relative;
+  box-sizing: border-box;
+  bottom: auto;
+  margin: auto;
+  padding: 18px;
+  /*width: 30%;*/
+  font-size: 10px;
+  font-family: 'Kotta One', 'Bubbler One', 'Titillium Web', 'Abel',  serif;
+  text-align: center;
+  color: #FFFFFF;
 }
 
 p, li {
