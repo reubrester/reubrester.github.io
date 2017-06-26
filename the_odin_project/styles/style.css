@@ -109,3 +109,12 @@ p, li {
 #github:hover, #github:focus{
   text-shadow: 0 0 7px white;
 }
+
+#mockgoogle{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+#mockgoogle:hover, #mockgoogle:focus{
+  text-shadow: 0 0 7px white;
+}

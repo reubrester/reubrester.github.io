@@ -1,47 +1,186 @@
 html {
-  font-size: 10px; /* px means 'pixels': the base font size is now 10 pixels high */
-  font-family: placeholder: this should be the rest of the output you got from Google fonts
+  background-color: white;
 }
 
-h1 {
-  margin: 0;
-  padding: 20px 0;
+/*.main{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+*/
+
+body{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform: -webkit-translate(-50%, -50%);
+  transform: -moz-translate(-50%, -50%);
+  transform: -ms-translate(-50%, -50%);
+  margin: 0 auto;
+  background-color: white;
+}
+
+/*html {
+  font-size: 10px; px means 'pixels': the base font size is now 10 pixels high
+  font-family: placeholder: this should be the rest of the output you got from Google fonts
+}*/
+
+.google{
+  display: inline-block;
+  margin: 0 auto;
+  /*position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform: -webkit-translate(-50%, -50%);
+  transform: -moz-translate(-50%, -50%);
+  transform: -ms-translate(-50%, -50%);
+  margin: auto;
+  background-color: white;*/
+}
+#G{
+  font-family: 'Kotta One', 'Titillium Web', 'Abel',  serif;
   font-size: 60px;
+  /*text-align: center;*/
+  color: blue;
+}
+#O1{
+  font-family: 'Kotta One', 'Titillium Web', 'Abel',  serif;
+  font-size: 60px;
+  /*text-align: center;*/
+  color: red;
+}
+#O2{
+  font-family: 'Kotta One', 'Titillium Web', 'Abel',  serif;
+  font-size: 60px;
+  /*text-align: center;*/
+  color: yellow;
+}
+#G2{
+  font-family: 'Kotta One', 'Titillium Web', 'Abel',  serif;
+  font-size: 60px;
+  /*text-align: center;*/
+  color: blue;
+}
+#L{
+  font-family: 'Kotta One', 'Titillium Web', 'Abel',  serif;
+  font-size: 60px;
+  /*text-align: center;*/
+  color: green;
+}
+#E{
+  font-family: 'Kotta One', 'Titillium Web', 'Abel',  serif;
+  font-size: 60px;
+  /*text-align: center;*/
+  color: red;
+}
+
+/*form {
+  width:500px;
+  margin:50px auto;
+}*/
+
+.search {
+  margin: 0 auto;
+  padding:8px 15px;
+  background:rgba(50, 50, 50, 0.2);
+  border:0px solid #dbdbdb;
+}
+
+.searchbutton {
+  position:relative;
+  padding:6px 15px;
+  left:-8px;
+  border:2px solid #207cca;
+  background-color:#207cca;
+  color:#fafafa;
+}
+.searchbutton:hover  {
+  background-color:#fafafa;
+  color:#207cca;
+}
+
+/*.search input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+When the input field gets focus, change its width to 100%
+.search input[type=text]:focus {
+    width: 100%;
+}
+
+
+/*#second_p{
+  position: relative;
+  box-sizing: border-box;
+  bottom: auto;
+  margin: auto;
+  padding: 18px;
+  width: 30%;
+  font-size: 10px;
+  font-family: 'Kotta One', 'Bubbler One', 'Titillium Web', 'Abel',  serif;
   text-align: center;
   color: #FFFFFF;
-  text-shadow: 3px 3px 1px black;
-}
+}*/
 
-p, li {
+/*p, li {
   text-align: left;
+  font-family: 'Abel', sans-serif;
   font-size: 16px;
   line-height: 2;
   letter-spacing: 1px;
   color: white;
 }
 
-html {
-  background-color: #000000;
-}
-
-body{
-  width: 600px;
+#odin{
+  position: relative;
+  box-sizing: border-box;
   margin: 0 auto;
-  background-color: #004787;
-  padding: 0 20px 20px 20px;
-  border: 5px solid white;
+  width: 55%;
+  padding: 2px 0 20px 0;
+  font-size: 40px;
+  font-family: 'Kotta One', 'Titillium Web', 'Abel',  serif;
+  text-align: center;
 }
 
-img{
-  display: block;
-  margin: 0 auto;
-}
-
-a{
+#a{
+  text-decoration: none;
   color: #FFFFFF;
+}
+
+#odin:hover, #odin:focus{
+  text-shadow: 0 0 7px white;
+}
+
+#back{
+  position: relative;
+  box-sizing: border-box;
+  margin: auto;
+  padding: 18px;
+  width: 30%;
+  font-size: 20px;
+  font-family: 'Kotta One', 'Bubbler One', 'Titillium Web', 'Abel',  serif;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#back-link{
   text-decoration: none;
 }
 
-a:hover {
-  color: #FFD046;
+#back:hover, #back:focus{
+  text-shadow: 0 0 7px white;
 }
+
+#github{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+#github:hover, #github:focus{
+  text-shadow: 0 0 7px white;
+}
+*/
