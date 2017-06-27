@@ -1,3 +1,7 @@
+/**{
+  border:1px solid #000000;
+}*/
+
 html {
   background-color: white;
 }
@@ -10,14 +14,14 @@ html {
 */
 
 body{
-  position: fixed;
-  top: 50%;
+  /*top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   transform: -webkit-translate(-50%, -50%);
   transform: -moz-translate(-50%, -50%);
-  transform: -ms-translate(-50%, -50%);
-  margin: 0 auto;
+  transform: -ms-translate(-50%, -50%);*/
+  margin: 20px 0 0 0;
+  height: 100%;
   background-color: white;
 }
 
@@ -25,52 +29,87 @@ body{
   font-size: 10px; px means 'pixels': the base font size is now 10 pixels high
   font-family: placeholder: this should be the rest of the output you got from Google fonts
 }*/
+.navi{
+  display: block;
+  height: 30px;
+  margin: 10px 0;
+  padding: 10px 10px;
+}
+
+.nav{
+  float: right;
+  list-style-type: none;
+  font-size: 14px;
+  text-align: right;
+  margin: 5px 0 0 0;
+  padding: 0;
+}
+
+#nav{
+  display: inline-block;
+  float: left;
+  padding: 0 15px 0 6px;
+}
+
+#nav:hover{
+  text-decoration: underline;
+}
+
+.google_name{
+  position:fixed;
+  display: inline-block;
+  top: 35%;
+  left: 45%;
+  transform: translate(-40%, -45%);
+  margin: 0 auto;
+  }
 
 .google{
   display: inline-block;
   position: relative;
-  /*top: 50%;*/
-  left: -12.7%;
-  /*transform: translate(-50%, -50%);
+  text-align: center;
+  top: 50%;
+  left: 50%
+  transform: translate(-50%, -50%);
   transform: -webkit-translate(-50%, -50%);
   transform: -moz-translate(-50%, -50%);
-  transform: -ms-translate(-50%, -50%);*/
-  margin: auto;
+  transform: -ms-translate(-50%, -50%);
+  margin: 0 auto;
   background-color: white;
 }
 #G{
-  font-family: 'Kotta One', 'Titillium Web', 'Abel',  serif;
-  font-size: 60px;
+  font-family: 'arial', 'Kotta One', 'Titillium Web', 'Abel',  serif;
+  font-size: 90px;
   /*text-align: center;*/
   color: blue;
 }
 #O1{
-  font-family: 'Kotta One', 'Titillium Web', 'Abel',  serif;
-  font-size: 60px;
+  font-family: 'arial','Kotta One', 'Titillium Web', 'Abel',  serif;
+  font-size: 90px;
   /*text-align: center;*/
   color: red;
 }
 #O2{
-  font-family: 'Kotta One', 'Titillium Web', 'Abel',  serif;
-  font-size: 60px;
+  font-family: 'arial','Kotta One', 'Titillium Web', 'Abel',  serif;
+  font-size: 90px;
   /*text-align: center;*/
   color: yellow;
 }
 #G2{
-  font-family: 'Kotta One', 'Titillium Web', 'Abel',  serif;
-  font-size: 60px;
+  font-family: 'arial','Kotta One', 'Titillium Web', 'Abel',  serif;
+  font-size: 90px;
   /*text-align: center;*/
   color: blue;
 }
 #L{
-  font-family: 'Kotta One', 'Titillium Web', 'Abel',  serif;
-  font-size: 60px;
+  font-family: 'arial','Kotta One', 'Titillium Web', 'Abel',  serif;
+  font-size: 90px;
   /*text-align: center;*/
   color: green;
 }
 #E{
-  font-family: 'Kotta One', 'Titillium Web', 'Abel',  serif;
-  font-size: 60px;
+  font-family: 'arial','Kotta One', 'Titillium Web', 'Abel',  serif;
+  font-size: 90px;
   /*text-align: center;*/
   color: red;
 }
@@ -81,105 +120,100 @@ body{
 }*/
 
 .search {
+  position: absolute;
+  display: inline-block;
+
+  width: 500px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   margin: 0 auto;
   padding:8px 15px;
-  background:rgba(50, 50, 50, 0.2);
-  border:0px solid #dbdbdb;
+  background:white;
+  border:1px solid #dbdbdb;
+  back
+}
+
+.search:hover{
+  box-shadow: 0 3px 3px rgba(0,0,0,0.1)
 }
 
 .searchbutton {
-  position:relative;
-  padding:6px 15px;
-  left:-8px;
+  position:fixed;
+  display: inline-block;
+  top: 63%;
+  left: 45%;
+  transform: translate(-63%, -45%);
+  /*left:-8px;*/
   border:2px solid #207cca;
   background-color:#207cca;
   color:#fafafa;
 }
 .searchbutton:hover  {
-  background-color:#fafafa;
+  box-shadow: #207cca;
+  background-color:#207cca;
   color:#207cca;
 }
 
-/*.search input[type=text] {
-    width: 130px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
+.searchbutton2 {
+  position:fixed;
+  display: inline-block;
+  top: 63%;
+  left: 55%;
+  transform: translate(-63%, -55%);
+  /*left:-8px;*/
+  border:2px solid #207cca;
+  background-color:#207cca;
+  color:#fafafa;
+}
+.searchbutton2:hover  {
+  box-shadow: #207cca;
+  background-color:#207cca;
+  color:#207cca;
 }
 
-When the input field gets focus, change its width to 100%
-.search input[type=text]:focus {
-    width: 100%;
+footer{
+  list-style-type: none;
+  font-size: 12px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  color:#666;
 }
 
+.fnav1{
+  display: inline-block;
+  float:left;
+}
 
-/*#second_p{
+.fnav2{
+  display: inline-block;
+  float:right;
+  padding: 0 30px 5px 0;
+}
+/*.footer{
   position: relative;
-  box-sizing: border-box;
-  bottom: auto;
-  margin: auto;
-  padding: 18px;
-  width: 30%;
-  font-size: 10px;
-  font-family: 'Kotta One', 'Bubbler One', 'Titillium Web', 'Abel',  serif;
-  text-align: center;
-  color: #FFFFFF;
-}*/
-
-/*p, li {
-  text-align: left;
-  font-family: 'Abel', sans-serif;
-  font-size: 16px;
-  line-height: 2;
-  letter-spacing: 1px;
-  color: white;
+  top: 600%;
+  left: 0px;
+  width:100%;
+  height: 30px;
 }
 
-#odin{
+.fnav1{
+  display: inline-block;
   position: relative;
-  box-sizing: border-box;
+  bottom: 1px;
+  left: 0;
+  width: 100%;
+  height: 20px;
   margin: 0 auto;
-  width: 55%;
-  padding: 2px 0 20px 0;
-  font-size: 40px;
-  font-family: 'Kotta One', 'Titillium Web', 'Abel',  serif;
-  text-align: center;
 }
 
-#a{
-  text-decoration: none;
-  color: #FFFFFF;
-}
-
-#odin:hover, #odin:focus{
-  text-shadow: 0 0 7px white;
-}
-
-#back{
-  position: relative;
-  box-sizing: border-box;
-  margin: auto;
-  padding: 18px;
-  width: 30%;
-  font-size: 20px;
-  font-family: 'Kotta One', 'Bubbler One', 'Titillium Web', 'Abel',  serif;
-  text-align: center;
-  color: #FFFFFF;
-}
-
-#back-link{
-  text-decoration: none;
-}
-
-#back:hover, #back:focus{
-  text-shadow: 0 0 7px white;
-}
-
-#github{
-  text-decoration: none;
-  color: #FFFFFF;
-}
-
-#github:hover, #github:focus{
-  text-shadow: 0 0 7px white;
-}
-*/
+.fnav2{
+  display: inline-block;
+  position:relative;
+  bottom:0;
+  margin: 0 auto;
+}*/
