@@ -156,6 +156,7 @@ footer{
   display: inline-block;
   float:left;
   padding: 0 0 0 5px;
+  margin-left: auto;
 }
 
 .fnav2{
